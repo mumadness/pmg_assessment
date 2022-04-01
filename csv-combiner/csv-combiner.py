@@ -17,6 +17,5 @@ def read_print_file(path):
 
 print('"email_hash","category"')
 for path in file_paths:
-    # read individual file here
-    # data ==> dict{ email_hash : category }
+    # read and print individual file here
     read_print_file(path)
